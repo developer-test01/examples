@@ -1,9 +1,9 @@
 ## Building the Docker images
 
 ```console
-$ docker build -t gcr.io/google-samples/gb-frontend:v5 php-redis
+$ docker build -t gcr.io/nttd-platformtec/gb-frontend:v5 php-redis
 
-$ docker build -t gcr.io/google-samples/gb-redisslave:v2 redis-slave
+$ docker build -t gcr.io/nttd-platformtec/gb-redisslave:v2 redis-slave
 ```
 
 Building Multi-architecture docker images
