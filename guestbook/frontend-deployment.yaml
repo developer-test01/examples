@@ -19,7 +19,8 @@ spec:
         image: gcr.io/google-samples/gb-frontend:v4
         resources:
           requests:
-            cpu: 100m
+            #cpu: 100m #before
+            cpu: 110m #after
             memory: 100Mi
         env:
         - name: GET_HOSTS_FROM
