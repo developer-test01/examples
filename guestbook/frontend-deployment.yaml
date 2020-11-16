@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: asia.gcr.io/nttd-platformtec/gb-frontend:v3
+        image: asia.gcr.io/nttd-platformtec/gb-frontend:v4
         resources:
           requests:
             cpu: 100m #before
